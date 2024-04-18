@@ -16,4 +16,4 @@ Computed property is recalculated each time it's accessed. And unlike *lazy var*
 | Thread Safety Concerns: Lazy variables are not thread-safe by default, which means care must be taken when using them in a multithreaded context. | Thread Safety: Computed properties are just calculations and don’t have inherent thread safety issues, but the properties they rely on might. |
 
 
-`Compasession base on meduim article` [here](https://mehrdad-ahmadian.medium.com/ios-interview-question-lazy-variables-vs-computed-properties-in-swift-b35fd323cbbd)
+`Comparison base on medium article` [here](https://mehrdad-ahmadian.medium.com/ios-interview-question-lazy-variables-vs-computed-properties-in-swift-b35fd323cbbd)
